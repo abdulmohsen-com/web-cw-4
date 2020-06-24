@@ -4,31 +4,50 @@ html, body{
 }
 
 /* من الخواص التي يجب تغيرها لكي تصل للمطلوب
-    1. لون الخلفيه
-    2. الطول والعرض
-    3. الهوامش
-    4. الحواشي
-    5. نوع العرض
-    6. border radius */
+    1. لون الخلفيه d
+    2. الطول والعرض d
+    3. الهوامش d
+    4. الحواشي d
+    5. نوع العرض d
+    6. border radius d */
 
 /* عند الحاجه w3schools قم بالاستعانه بموقع  */
+.flex{
+    display: flex;
+    height: 100%;
+}
+.container{
+    height: 100%;
+}
 
 .sidebar{
     /* pxالعرض هنا يجب ان يكون 120 */
+    width: 150px;
+    background-color: gray;
+    border-radius: 8px;
 }
 
 .header{
     /* pxالطول هنا يجب ان يكون 80 */
+    height: 20%;
+    background-color: coral;
+    border-radius: 8px;
 }
 
 .main{
-
+background-color: chocolate;
+height: 80%;
+border-radius: 8px;
 }
 
 a{
-    color: darkgray;
+    text-decoration: none;
+    color: white;
     /* اجعل شكل اللنك من غير خط اسفل الكلام */
 }
+/* .social{
+    color: white;
+} */
 
 /* !بــونص */
 /* (hover) اجعل اللنك يتغير لونه الى الابيض عند التأشير عليه */
